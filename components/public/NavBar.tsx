@@ -8,7 +8,6 @@ import {
 } from '@/components/ui/navigation-menu';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu, X } from 'react-feather';
 import { useState } from 'react';
 
@@ -20,9 +19,9 @@ export default function NavBar() {
   };
 
   return (
-    <aside className='fixed left-0 top-0 h-screen w-48 bg-primary shadow-md z-50 flex flex-col justify-center items-center py-4'>
+    <aside className='fixed left-0 top-0 h-full w-full sm:w-64 bg-primary shadow-md z-50 flex flex-col sm:justify-center items-center py-4'>
       {/* Headshot */}
-      <div className='mb-8'>
+      <div className='mb-8 hidden sm:block'>
         <Avatar className='size-24'>
           <AvatarImage src='/images/yl.png' />
           <AvatarFallback>YL</AvatarFallback>
@@ -83,16 +82,20 @@ export default function NavBar() {
       </div>
 
       {/* Mobile Menu Toggle Button */}
-      <div className='sm:hidden'>
-        <button onClick={toggleMenu} className='text-white focus:outline-none'>
+      <div className='sm:hidden absolute left-4 top-4 z-60'>
+        <button
+          onClick={toggleMenu}
+          aria-expanded={isMenuOpen}
+          className='text-white focus:outline-none'
+        >
           {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
       </div>
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <NavigationMenu className='sm:hidden fixed left-0 top-0 w-48 h-screen bg-primary shadow-md'>
-          <NavigationMenuList className='flex flex-col text-white space-y-4 p-4'>
+        <NavigationMenu className='sm:hidden absolute left-0 top-12 w-full h-auto bg-primary shadow-lg z-40 flex justify-center items-center rounded-lg'>
+          <NavigationMenuList className='flex flex-col text-white space-y-4 p-8'>
             <NavigationMenuItem>
               <Link href='/about' legacyBehavior passHref>
                 <NavigationMenuLink
