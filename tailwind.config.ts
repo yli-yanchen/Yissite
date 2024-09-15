@@ -22,7 +22,8 @@ const config: Config = {
         },
         primary: {
           //   DEFAULT: 'rgba(154, 95, 81, 1)', pink
-          DEFAULT: 'rgba(74, 112, 86, 1)',
+          //   DEFAULT: 'rgba(74, 112, 86, 1)',  // second green
+          DEFAULT: 'rgba(51, 78, 60, 1)',
           foreground: 'rgba(66, 100, 77, 1)',
         },
         secondary: {

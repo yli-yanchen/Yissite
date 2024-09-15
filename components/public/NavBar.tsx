@@ -33,7 +33,7 @@ export default function NavBar() {
         <NavigationMenu>
           <NavigationMenuList className='text-white flex flex-col space-y-4'>
             <NavigationMenuItem>
-              <Link href='/about' legacyBehavior passHref>
+              <Link href='#about' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
@@ -42,7 +42,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/education' legacyBehavior passHref>
+              <Link href='#education' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
@@ -51,7 +51,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/expertise' legacyBehavior passHref>
+              <Link href='#expertise' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
@@ -60,7 +60,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/project' legacyBehavior passHref>
+              <Link href='#project' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
@@ -69,7 +69,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/interest' legacyBehavior passHref>
+              <Link href='#interest' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
