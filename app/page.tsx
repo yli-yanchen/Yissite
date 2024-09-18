@@ -334,9 +334,58 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ---- EXPERIENCE  ---- */}
+        <section id='experience' className='h-auto py-16'>
+          <h2 className='text-2xl font-bold mb-4 text-primary'>Experience</h2>
+          <div className='space-y-8'>
+            <div>
+              <h3 className='text-lg py-1 font-bold text-primary'>
+                DEYI Consultants, Inc,{' '}
+                <span className='font-normal'>Fullstack Engineer</span>
+              </h3>
+              <p className='text-md py-1'>
+                <span className='font-bold'>Timeline: </span>Dec 2023 - Present
+              </p>
+              <p className='text-md font-medium py-1'>
+                <span className='font-bold'>Classwork: </span>
+                Data Mining, Data Science for Transportation, Data Management,
+                Business Analysis, Supply Chain Analytics, Fundamental Concepts
+                of computing and programming in Civil and Environmental
+                Engineering, Network and Travel Demand Analysis, Geographic
+                Information Systems
+              </p>
+            </div>
+            <div>
+              <h3 className='text-lg py-1 font-bold text-primary'>
+                Linscott, Law & Greenspan, Engineers,{' '}
+                <span className='font-normal'>Transportation Engineer</span>
+              </h3>
+              <p className='text-md py-1'>
+                <span className='font-bold'>Timeline: </span>Jun 2021 - Dec 2023
+              </p>
+              <p className='text-md font-medium py-1'>
+                <span className='font-bold'>Classwork: </span>
+                Advanced Mathematics, Foundation of Computers, Linear Algebra,
+                Programming Design of C Language, Probability and Statistics,
+                Operation Research
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ---- PROJECT  ---- */}
-        <section id='about' className='h-auto py-16'>
+        <section id='projects' className='h-auto py-16'>
           <h2 className='text-2xl font-bold mb-4 text-primary'>Projects</h2>
+          <p className='text-md'>Hello World! Welcome to Yis Website!</p>
+          <p className='text-md'>
+            I was previously a Transportation Engineering, focus on the data
+            modeling with ArcGIS and also TransCAD
+          </p>
+        </section>
+
+        {/* ---- INTEREST  ---- */}
+        <section id='interests' className='h-auto py-16'>
+          <h2 className='text-2xl font-bold mb-4 text-primary'>Interests</h2>
           <p className='text-md'>Hello World! Welcome to Yis Website!</p>
           <p className='text-md'>
             I was previously a Transportation Engineering, focus on the data

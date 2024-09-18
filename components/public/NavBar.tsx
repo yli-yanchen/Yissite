@@ -59,12 +59,23 @@ export default function NavBar() {
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
+
             <NavigationMenuItem>
-              <Link href='#project' legacyBehavior passHref>
+              <Link href='#experience' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold`}
                 >
-                  PROJECT
+                  EXPERIENCE
+                </NavigationMenuLink>
+              </Link>
+            </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <Link href='#projects' legacyBehavior passHref>
+                <NavigationMenuLink
+                  className={`${navigationMenuTriggerStyle()} font-bold`}
+                >
+                  PROJECTS
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
@@ -137,12 +148,12 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/interest' legacyBehavior passHref>
+              <Link href='/interests' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
                 >
-                  INTEREST
+                  INTERESTS
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
