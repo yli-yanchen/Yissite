@@ -59,7 +59,7 @@ export default function Home() {
           <p className='text-md py-2'>
             I am a Software Engineer specializing in web development at DEYI
             Consultants, Inc. I played a key role in developing and launching
-            the company's website and am currently working on a project
+            the company&apos;s website and am currently working on a project
             management system to help our engineers and clients track project
             statuses. In my previous role at LLG, I introduced Python for safety
             data analysis and utilized ArcGIS Pro for geographic analysis. I
@@ -510,7 +510,7 @@ export default function Home() {
             I enjoy traveling, photography, cooking, reading, and blogging!{' '}
           </p>
           <p className='py-2'>
-            I'm fascinated by ancient history and love exploring how
+            I&apos;m fascinated by ancient history and love exploring how
             civilizations and countries have developed. One of my favorite books
             is <span className='italic'>Revelation</span>, which discusses the
             evolution of the Shang Dynasty in the ancient China. I also love{' '}
@@ -525,14 +525,14 @@ export default function Home() {
             I have a habit of writing in my diary to reflect on the day,
             capturing my thoughts, actions, and emotions.{' '}
             <span className='italic'>
-              (It's my secret to staying happy, and keep motivated everyday
+              (It&apos;s my secret to staying happy, and keep motivated everyday
               😊😊😊)
             </span>
           </p>
           <p className='py-2'>
             Lastly, thank you all for visiting my website. I truly appreciate
-            you taking the time to get to know me. I'd love to share some photos
-            from my daily life with you.
+            you taking the time to get to know me. I&apos;d love to share some
+            photos from my daily life with you.
           </p>
 
           <div className='w-full h-auto bg-primary p-1 flex flex-row items-center justify-center'>
