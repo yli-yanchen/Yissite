@@ -447,7 +447,8 @@ export default function Home() {
           </h2>
           <div>
             <h3 className='text-lg py-1 font-bold text-primary'>
-              OptiKube, <span className='font-normal'>Software Engineer</span>
+              OptiKube,{' '}
+              <span className='font-normal'>Transportation Engineer</span>
             </h3>
             <p className='text-md py-1'>
               <span className='font-bold'>Timeline: </span>September 2023 - May

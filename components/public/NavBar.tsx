@@ -109,7 +109,7 @@ export default function NavBar() {
         <NavigationMenu className='sm:hidden absolute left-0 top-12 w-full h-auto bg-primary shadow-lg z-40 flex justify-center items-center rounded-lg'>
           <NavigationMenuList className='flex flex-col text-white space-y-4 p-8'>
             <NavigationMenuItem>
-              <Link href='/about' legacyBehavior passHref>
+              <Link href='#about' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -119,7 +119,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/education' legacyBehavior passHref>
+              <Link href='#education' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -129,7 +129,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/expertise' legacyBehavior passHref>
+              <Link href='#expertise' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -139,7 +139,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/project' legacyBehavior passHref>
+              <Link href='#project' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -149,7 +149,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/interests' legacyBehavior passHref>
+              <Link href='#interests' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
