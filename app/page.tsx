@@ -42,9 +42,9 @@ import { BiSolidFileJson, BiLogoPostgresql } from 'react-icons/bi';
 export default function Home() {
   return (
     <div className='grid grid-cols-[16rem_1fr] min-h-screen'>
-      <aside className='bg-primary text-white p-4'>
+      <div className='bg-primary text-white p-4'>
         <NavBar />
-      </aside>
+      </div>
 
       {/* Main Content */}
       <main className='p-8'>
