@@ -415,7 +415,7 @@ export default function Home() {
             <div>
               <h3 className='text-lg py-1 font-bold text-primary'>
                 Linscott, Law & Greenspan, Engineers,{' '}
-                <span className='font-normal'>Software Engineer</span>
+                <span className='font-normal'>Transportation Engineer</span>
               </h3>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Jun 2021 - Dec 2023
