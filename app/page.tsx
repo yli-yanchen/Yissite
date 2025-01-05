@@ -440,9 +440,9 @@ export default function Home() {
                     engineering tasks.
                   </li>
                   <li className='py-1'>
-                    Develop a backend API for an ETL (Extract, Transform, Load)
+                    {`Develop a backend API for an ETL (Extract, Transform, Load)
                     system to retrieve, process, and integrate traffic data from
-                    TOMTOM platform.
+                    TOMTOM platform.`}
                     {/* Get promoted over{' '}
                     <span className='font-bold'>30% faster</span> than the
                     typical progression timeline, showcasing exceptional
