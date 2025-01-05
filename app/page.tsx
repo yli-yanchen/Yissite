@@ -442,7 +442,7 @@ export default function Home() {
                   <li className='py-1'>
                     Develop a backend API for an ETL (Extract, Transform, Load)
                     system to retrieve, process, and integrate traffic data from
-                    TOMTOM's platform.
+                    TOMTOM&apos;s platform.
                     {/* Get promoted over{' '}
                     <span className='font-bold'>30% faster</span> than the
                     typical progression timeline, showcasing exceptional
