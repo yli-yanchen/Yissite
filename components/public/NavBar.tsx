@@ -20,8 +20,8 @@ export default function NavBar() {
 
   return (
     <aside className='fixed left-0 top-0 h-auto sm:h-full w-full sm:w-64 bg-primary shadow-md z-50 flex flex-col sm:justify-center items-center py-4 sm:py-8'>
-      <h1 className='py-2 sm:py-4 text-lg sm:text-xl font-bold underline'>
-        YI LI
+      <h1 className='py-2 sm:py-4 text-lg sm:text-xl font-bold'>
+        Yi (Cheryl) Li
       </h1>
       {/* Headshot */}
       <div className='mb-4 sm:mb-8 hidden sm:block'>

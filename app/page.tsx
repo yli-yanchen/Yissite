@@ -57,7 +57,16 @@ export default function Home() {
             Hello World! Welcome to Yis Website! 👋👋👋
           </p>
           <p className='text-md py-2'>
-            I am a Software Engineer specializing in web development at DEYI
+            I am a Software Engineer with experience in web development at DEYI
+            Consultants, Inc., where I built the company website to enhance
+            public access to company information. Currently, I am developing a
+            project management system to streamline processes for both engineers
+            and clients. This system includes features such as project status
+            tracking, bill payments, appointment scheduling, and more. The
+            dashboard is designed to assist administrators in efficient project
+            management while offering clients a user-friendly platform to
+            monitor their ongoing projects.
+            {/* I am a Software Engineer specializing in web development at DEYI
             Consultants, Inc. I played a key role in developing and launching
             the company&apos;s website and am currently working on a project
             management system to help our engineers and clients track project
@@ -66,13 +75,13 @@ export default function Home() {
             also designed VBA macros in Excel and created GISDK macros in
             TransCAD to streamline VMT calculations. Additionally, I integrated
             the TomTom Traffic API to access speed data, which significantly
-            improved workflows and enhanced the quality of our work.
+            improved workflows and enhanced the quality of our work. */}
           </p>
           <p className='text-md py-2'>
-            I am passionate about leveraging technology to solve real-world
-            problems and thrive in collaborative team environments. I look
-            forward to connecting with you and discussing how I can contribute
-            to the success of your team. ☺️☺️☺️
+            I graduate from USC in 2021. I am passionate about leveraging
+            technology to solve real-world problems and thrive in collaborative
+            team environments. I look forward to connecting with you and
+            discussing how I can contribute to the success of your team.
           </p>
         </section>
 
@@ -95,8 +104,9 @@ export default function Home() {
                 <span className='font-normal'>Los Angeles, United State</span>
               </h3>
               <p className='text-md font-bold py-1'>
-                Master of Engineering - Civil Engineering (Transportation
-                Engineering)
+                {/* Master of Engineering - Civil Engineering (Transportation
+                Engineering) */}
+                Master of Engineering
               </p>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Aug 2019 - May 2021
@@ -119,7 +129,8 @@ export default function Home() {
                 <span className='font-normal'>Tianjin, China</span>
               </h3>
               <p className='text-md font-bold py-1'>
-                Beachlor of Engineering - Transportation Engineering
+                {/* Beachlor of Engineering - Transportation Engineering */}
+                Beachlor of Engineering
               </p>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Aug 2015 - Jun 2019
@@ -415,7 +426,7 @@ export default function Home() {
             <div>
               <h3 className='text-lg py-1 font-bold text-primary'>
                 Linscott, Law & Greenspan, Engineers,{' '}
-                <span className='font-normal'>Transportation Engineer</span>
+                <span className='font-normal'>Data Engineer</span>
               </h3>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Jun 2021 - Dec 2023
@@ -429,10 +440,13 @@ export default function Home() {
                     engineering tasks.
                   </li>
                   <li className='py-1'>
-                    Get promoted over{' '}
+                    Develop a backend API for an ETL (Extract, Transform, Load)
+                    system to retrieve, process, and integrate traffic data from
+                    TOMTOM's platform.
+                    {/* Get promoted over{' '}
                     <span className='font-bold'>30% faster</span> than the
                     typical progression timeline, showcasing exceptional
-                    performance and rapid technical growth.
+                    performance and rapid technical growth. */}
                   </li>
                 </ul>
               </div>
@@ -447,8 +461,7 @@ export default function Home() {
           </h2>
           <div>
             <h3 className='text-lg py-1 font-bold text-primary'>
-              OptiKube,{' '}
-              <span className='font-normal'>Transportation Engineer</span>
+              OptiKube, <span className='font-normal'>Software Engineer</span>
             </h3>
             <p className='text-md py-1'>
               <span className='font-bold'>Timeline: </span>September 2023 - May
@@ -520,15 +533,17 @@ export default function Home() {
             </span>
             which delves into the development of humanity. Other favorites
             include <span className='italic'>Becoming</span>,{' '}
-            <span className='italic'>Educated. </span>
+            <span className='italic'>Educated, </span>
+            and more.
           </p>
           <p className='py-2'>
-            I have a habit of writing in my diary to reflect on the day,
-            capturing my thoughts, actions, and emotions.{' '}
-            <span className='italic'>
+            Beyond reading, I also love writing. Some of my articles are
+            publiced online and I get used to have a diary to reflect on the
+            day, capturing my thoughts, actions, and emotions.{' '}
+            {/* <span className='italic'>
               (It&apos;s my secret to staying happy, and keep motivated everyday
               😊😊😊)
-            </span>
+            </span> */}
           </p>
           <p className='py-2'>
             Lastly, thank you all for visiting my website. I truly appreciate
