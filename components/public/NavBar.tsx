@@ -19,11 +19,13 @@ export default function NavBar() {
   };
 
   return (
-    <aside className='fixed left-0 top-0 h-full w-full sm:w-64 bg-primary shadow-md z-50 flex flex-col sm:justify-center items-center py-4'>
-      <h1 className='py-4 font-bold underline'>YI LI</h1>
+    <aside className='fixed left-0 top-0 h-auto sm:h-full w-full sm:w-64 bg-primary shadow-md z-50 flex flex-col sm:justify-center items-center py-4 sm:py-8'>
+      <h1 className='py-2 sm:py-4 text-lg sm:text-xl font-bold'>
+        Yi (Cheryl) Li
+      </h1>
       {/* Headshot */}
-      <div className='mb-8 hidden sm:block'>
-        <Avatar className='size-24'>
+      <div className='mb-4 sm:mb-8 hidden sm:block'>
+        <Avatar className='w-24 h-24'>
           <AvatarImage src='/images/yl.png' />
           <AvatarFallback>YL</AvatarFallback>
         </Avatar>
@@ -109,7 +111,7 @@ export default function NavBar() {
         <NavigationMenu className='sm:hidden absolute left-0 top-12 w-full h-auto bg-primary shadow-lg z-40 flex justify-center items-center rounded-lg'>
           <NavigationMenuList className='flex flex-col text-white space-y-4 p-8'>
             <NavigationMenuItem>
-              <Link href='/about' legacyBehavior passHref>
+              <Link href='#about' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -119,7 +121,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/education' legacyBehavior passHref>
+              <Link href='#education' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -129,7 +131,7 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/expertise' legacyBehavior passHref>
+              <Link href='#expertise' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
@@ -139,17 +141,17 @@ export default function NavBar() {
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/project' legacyBehavior passHref>
+              <Link href='#projects' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
                 >
-                  PROJECT
+                  PROJECTS
                 </NavigationMenuLink>
               </Link>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <Link href='/interests' legacyBehavior passHref>
+              <Link href='#interests' legacyBehavior passHref>
                 <NavigationMenuLink
                   className={`${navigationMenuTriggerStyle()} font-bold py-2 px-4`}
                   onClick={toggleMenu}
