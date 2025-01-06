@@ -130,7 +130,7 @@ export default function Home() {
               </h3>
               <p className='text-md font-bold py-1'>
                 {/* Beachlor of Engineering - Transportation Engineering */}
-                Beachlor of Engineering
+                Bachelor of Engineering
               </p>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Aug 2015 - Jun 2019
