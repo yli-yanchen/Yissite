@@ -377,7 +377,7 @@ export default function Home() {
             <div>
               <h3 className='text-lg py-1 font-bold text-primary'>
                 DEYI Consultants, Inc,{' '}
-                <span className='font-normal'>Software Engineer</span>
+                <span className='font-normal'>Full Stack Engineer</span>
               </h3>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Dec 2023 - Present
@@ -426,7 +426,9 @@ export default function Home() {
             <div>
               <h3 className='text-lg py-1 font-bold text-primary'>
                 Linscott, Law & Greenspan, Engineers,{' '}
-                <span className='font-normal'>Data Engineer</span>
+                <span className='font-normal'>
+                  Transportation Engineer (Data Analysis)
+                </span>
               </h3>
               <p className='text-md py-1'>
                 <span className='font-bold'>Timeline: </span>Jun 2021 - Dec 2023
