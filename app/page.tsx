@@ -442,13 +442,19 @@ export default function Home() {
                     engineering tasks.
                   </li>
                   <li className='py-1'>
-                    {`Develop a backend API for an ETL (Extract, Transform, Load)
+                    Worked closely with regional transportation models,
+                    utilizing GISDK scripts for automation and analysis.
+                    {/* Develop a backend API for an ETL (Extract, Transform, Load)
                     system to retrieve, process, and integrate traffic data from
-                    TOMTOM platform.`}
+                    TOMTOM's platform. */}
                     {/* Get promoted over{' '}
                     <span className='font-bold'>30% faster</span> than the
                     typical progression timeline, showcasing exceptional
                     performance and rapid technical growth. */}
+                  </li>
+                  <li>
+                    Processed traffic data using R and Python within ArcGIS for
+                    geospatial visualization and decision-making.
                   </li>
                 </ul>
               </div>
